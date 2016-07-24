@@ -1,0 +1,132 @@
+/*  ===== global styles=====   */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    position: relative;
+}
+h1 h2 h3 h4 h5 h6 ul li a p{
+    margin: 0px;
+}
+h1{
+    font-family: Tahoma, Geneva, serif;
+    font-size: 2.2ems;
+}
+h2{
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+h3{
+    font-family: Impact, monospace;
+}
+h4{
+    font-family: Tahoma, Geneva, serif;
+}
+/*=== header container position and background===*/
+header{
+    height: 100px;
+    position: relative;
+    background-color: gray;
+    border-bottom-right-radius: -10px;
+}
+/*=== nav bar ====*/
+ nav{
+    margin-top: 20px;
+    padding: 0px;
+    line-height: 25px;
+    width: 80%;
+    bottom: 5px;
+    float: left;
+}
+#logo{
+    float: left;
+    border: 2ps solid black;
+    border-radius: 25px;
+    margin: 10px;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+
+nav ul li{
+display: inline;
+}
+
+nav li a:link, a:visited{
+    color: #000;
+    text-decoration: none;
+    padding: 7px 15px;
+    margin-right: 2px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+.current{
+	padding: 9px 15px;
+	background-color: darkgray;
+	}
+nav li a:hover, a:active {
+    color: darkorange;
+    background-color: dimgray;
+    padding: 7px 15px;
+}
+
+/*#homeBanner{
+	background-image: url("../wguSiteImg/rodi-1.png"); 
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	position: 0px 100px;
+	z-index: 9;*
+}*/
+
+footer{
+    clear: both;  
+    height: 70px;
+    background-color: chocolate;
+}
+footer ul li{
+    display: inline;
+    margin: 10%;
+}
+/*==== end of global style ====*/
+/*=== Home landing page ===*/
+
+ #main{
+    clear: both;
+    position: relative;
+    background-image: url("../wguSiteImg/seattleNight.JPG"); background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    color: white;  
+}
+#main{
+    
+    
+}
+section{
+    position: relative;
+}
+
+.col{
+    margin: 1%;
+    height: 500px;
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 3px;
+    
+}
+/* ===== Resume Style ===*/
+.position{
+    margin: 2%; 
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 3px;
+}
