@@ -9,11 +9,12 @@ h1 h2 h3 h4 h5 h6 ul li a p{
     margin: 0px;
 }
 h1{
-    font-family: Tahoma, Geneva, serif;
-    font-size: 2.2ems;
+    font-family: Geneva, Tahoma, serif;
+    font-size: 20px;
 }
 h2{
     font-family: Verdana, Geneva, sans-serif;
+    font-size: 2ems;
     
 }
 h3{
@@ -71,7 +72,7 @@ nav li a:link, a:visited{
 nav li a:hover, a:active {
     color: darkorange;
     background-color: dimgray;
-    padding: 7px 15px;
+    padding: 9px 15px;
 }
 
 /*#homeBanner{
@@ -123,10 +124,39 @@ section{
     border-radius: 3px;
     
 }
-/* ===== Resume Style ===*/
+/* ===== Resume Style ===*/ 
+#objective{
+    
+    padding: 10%;
+}
+
+#objective p{
+text-indent: 20px;
+}
 .position{
     margin: 2%; 
     background-color: bisque;
-    padding: 10px;
+    padding: 20px;
     border-radius: 3px;
 }
+
+img{ 
+float:left;
+margin: 3px 10px 10px 3px;
+border: 2px solid #000;
+border-radius: 5px;
+}
+span .date{
+    font-size: .8ems;
+}
+
+/* ===== Certifications Style====*/
+#cert{
+    clear: both;
+    position: relative;
+    background-image: url(../wguSiteImg/circuitBoard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+/* ===== Contact Style====*/
